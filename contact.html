@@ -27,11 +27,11 @@
                
                    <!-- second grid -->
            <div>        
-             <form>
-               <input type="text" placeholder="Your Name" required>
-               <input type="text" placeholder="Last Name"><br>
-               <input type="Email" placeholder="Email" required><br>
-               <input type="text" placeholder="Subject of this message"><br>
+             <form name="contact" method="POST" data-netlify="true" >
+               <input type="text" name="text" placeholder="Your Name" required>
+               <input type="text" name="text" placeholder="Last Name"><br>
+               <input type="Email" name="email" placeholder="Email" required><br>
+               <input type="text" name="text" placeholder="Subject of this message"><br>
                <textarea name="message" placeholder="Message" rows="5" required></textarea><br>
                <button class="submit" >Send Message</button> 
 
